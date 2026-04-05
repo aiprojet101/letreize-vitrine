@@ -1,4 +1,5 @@
 import { Heart } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const footerLinks = [
   {
@@ -19,12 +20,13 @@ const footerLinks = [
   {
     title: 'Légal',
     links: [
-      { label: 'Confidentialité', href: 'https://le13-lac.vercel.app/privacy' },
-      { label: 'CGU', href: '#' },
+      { label: 'Mentions légales', href: '/mentions-legales', internal: true },
+      { label: 'Confidentialité', href: '/confidentialite', internal: true },
+      { label: 'CGU', href: '/cgu', internal: true },
       { label: 'Contact', href: 'mailto:aiprojet101@gmail.com' },
     ],
   },
-]
+] as const
 
 export default function Footer() {
   return (
@@ -80,13 +82,22 @@ export default function Footer() {
               <ul className="space-y-3">
                 {group.links.map((link) => (
                   <li key={link.label}>
-                    <a
-                      href={link.href}
-                      className="text-sm text-[#7a6e5a] hover:text-[#d4a034] transition-colors duration-300"
-                      {...(link.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                    >
-                      {link.label}
-                    </a>
+                    {'internal' in link && link.internal ? (
+                      <Link
+                        to={link.href}
+                        className="text-sm text-[#7a6e5a] hover:text-[#d4a034] transition-colors duration-300"
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        className="text-sm text-[#7a6e5a] hover:text-[#d4a034] transition-colors duration-300"
+                        {...(link.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                      >
+                        {link.label}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
