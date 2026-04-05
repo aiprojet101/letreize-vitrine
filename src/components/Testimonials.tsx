@@ -34,7 +34,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-40 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Stats */}
         <motion.div

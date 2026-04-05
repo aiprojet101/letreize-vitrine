@@ -4,7 +4,7 @@ import PlayingCard from './PlayingCard'
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-40 overflow-hidden">
       {/* Background glow */}
       <div
         className="absolute inset-0"

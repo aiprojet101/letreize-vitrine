@@ -31,7 +31,7 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer
-      className="relative pt-16 pb-8"
+      className="relative pt-24 pb-12"
       style={{
         background: 'linear-gradient(180deg, rgba(10,22,16,0), rgba(13,31,22,0.5))',
         borderTop: '1px solid rgba(212, 160, 52, 0.08)',

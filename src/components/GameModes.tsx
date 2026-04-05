@@ -46,7 +46,7 @@ const modes = [
 
 export default function GameModes() {
   return (
-    <section id="game-modes" className="relative py-32 overflow-hidden">
+    <section id="game-modes" className="relative py-40 overflow-hidden">
       {/* Background accent */}
       <div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full"

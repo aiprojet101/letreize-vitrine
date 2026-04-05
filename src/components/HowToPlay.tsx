@@ -38,7 +38,7 @@ const steps = [
 
 export default function HowToPlay() {
   return (
-    <section id="how-to-play" className="relative py-32 overflow-hidden">
+    <section id="how-to-play" className="relative py-40 overflow-hidden">
       {/* Subtle background */}
       <div
         className="absolute inset-0 opacity-[0.02]"

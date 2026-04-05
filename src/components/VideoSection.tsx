@@ -3,7 +3,7 @@ import { Play, MonitorPlay } from 'lucide-react'
 
 export default function VideoSection() {
   return (
-    <section id="video" className="relative py-32 overflow-hidden">
+    <section id="video" className="relative py-40 overflow-hidden">
       {/* Background glow */}
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px]"
