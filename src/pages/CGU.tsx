@@ -162,8 +162,8 @@ export default function CGU() {
             <h2 className="text-lg font-semibold text-[#f0e6d2] mb-3">12. Contact</h2>
             <p>
               Pour toute question, contactez-nous à{' '}
-              <a href="mailto:aiprojet101@gmail.com" className="text-[#d4a034] hover:underline">
-                aiprojet101@gmail.com
+              <a href="mailto:contact@letreize.fr" className="text-[#d4a034] hover:underline">
+                contact@letreize.fr
               </a>.
             </p>
           </section>

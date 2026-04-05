@@ -38,7 +38,7 @@ export default function MentionsLegales() {
             <ul className="mt-3 space-y-1 ml-4 list-disc">
               <li>Nom : David Pélerin</li>
               <li>Statut : Personne physique</li>
-              <li>Email : <a href="mailto:aiprojet101@gmail.com" className="text-[#d4a034] hover:underline">aiprojet101@gmail.com</a></li>
+              <li>Email : <a href="mailto:contact@letreize.fr" className="text-[#d4a034] hover:underline">contact@letreize.fr</a></li>
             </ul>
           </section>
 

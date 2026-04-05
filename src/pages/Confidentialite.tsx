@@ -38,7 +38,7 @@ export default function Confidentialite() {
             </p>
             <ul className="mt-3 space-y-1 ml-4 list-disc">
               <li>David Pélerin</li>
-              <li>Email : <a href="mailto:aiprojet101@gmail.com" className="text-[#d4a034] hover:underline">aiprojet101@gmail.com</a></li>
+              <li>Email : <a href="mailto:contact@letreize.fr" className="text-[#d4a034] hover:underline">contact@letreize.fr</a></li>
             </ul>
           </section>
 
@@ -145,8 +145,8 @@ export default function Confidentialite() {
             </ul>
             <p className="mt-4">
               Pour exercer ces droits, contactez-nous à{' '}
-              <a href="mailto:aiprojet101@gmail.com" className="text-[#d4a034] hover:underline">
-                aiprojet101@gmail.com
+              <a href="mailto:contact@letreize.fr" className="text-[#d4a034] hover:underline">
+                contact@letreize.fr
               </a>.
             </p>
             <p className="mt-2">
@@ -177,8 +177,8 @@ export default function Confidentialite() {
             <h2 className="text-lg font-semibold text-[#f0e6d2] mb-3">11. Contact</h2>
             <p>
               Pour toute question relative à cette politique, contactez-nous à{' '}
-              <a href="mailto:aiprojet101@gmail.com" className="text-[#d4a034] hover:underline">
-                aiprojet101@gmail.com
+              <a href="mailto:contact@letreize.fr" className="text-[#d4a034] hover:underline">
+                contact@letreize.fr
               </a>.
             </p>
           </section>

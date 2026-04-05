@@ -23,7 +23,7 @@ const footerLinks = [
       { label: 'Mentions légales', href: '/mentions-legales', internal: true },
       { label: 'Confidentialité', href: '/confidentialite', internal: true },
       { label: 'CGU', href: '/cgu', internal: true },
-      { label: 'Contact', href: 'mailto:aiprojet101@gmail.com' },
+      { label: 'Contact', href: 'mailto:contact@letreize.fr' },
     ],
   },
 ] as const
