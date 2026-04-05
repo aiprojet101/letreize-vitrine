@@ -4,7 +4,7 @@ import PlayingCard from './PlayingCard'
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-40 overflow-hidden">
+    <section className="relative py-28 md:py-40 overflow-hidden">
       {/* Background glow */}
       <div
         className="absolute inset-0"
@@ -19,7 +19,7 @@ export default function FinalCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.8 }}
-          className="relative rounded-3xl p-12 md:p-16 text-center overflow-hidden"
+          className="relative rounded-3xl p-8 md:p-16 text-center overflow-hidden"
           style={{
             background: 'linear-gradient(135deg, rgba(18,35,24,0.8), rgba(13,31,22,0.9))',
             border: '1px solid rgba(212, 160, 52, 0.2)',

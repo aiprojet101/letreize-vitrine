@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer
-      className="relative pt-20 pb-10"
+      className="relative pt-16 pb-12"
       style={{
         background: 'linear-gradient(180deg, rgba(10,22,16,0), rgba(13,31,22,0.5))',
         borderTop: '1px solid rgba(212, 160, 52, 0.08)',
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         {/* Middle: All links in a single flat row */}
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mb-14">
+        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 mb-14">
           <a
             href="https://le13-lac.vercel.app"
             target="_blank"
@@ -89,7 +89,7 @@ export default function Footer() {
         />
 
         {/* Bottom */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#7a6e5a]">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#7a6e5a]">
           <p>&copy; {new Date().getFullYear()} Le Treize. Tous droits réservés.</p>
           <p className="flex items-center gap-1.5">
             Fait avec <Heart size={12} className="text-[#c23b3b]" /> au Vietnam et en France

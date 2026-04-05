@@ -34,7 +34,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="relative py-40 overflow-hidden">
+    <section className="relative py-28 md:py-40 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Stats */}
         <motion.div
@@ -42,7 +42,7 @@ export default function Testimonials() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-28"
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-20 md:mb-28"
         >
           {stats.map((stat, i) => (
             <motion.div
@@ -98,7 +98,7 @@ export default function Testimonials() {
         </motion.div>
 
         {/* Testimonial cards */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-6">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}

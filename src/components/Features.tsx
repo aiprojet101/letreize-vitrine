@@ -61,7 +61,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="relative py-40 overflow-hidden">
+    <section id="features" className="relative py-24 md:py-40 overflow-hidden">
       {/* Background */}
       <div
         className="absolute inset-0"
