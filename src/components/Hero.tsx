@@ -161,11 +161,11 @@ export default function Hero() {
           className="mt-20 flex items-end justify-center gap-[-8px]"
         >
           {[
-            { rank: '3', suit: 'diamonds' as const },
-            { rank: '3', suit: 'clubs' as const },
-            { rank: '3', suit: 'hearts' as const },
-            { rank: '3', suit: 'spades' as const },
+            { rank: '2', suit: 'diamonds' as const },
+            { rank: '2', suit: 'clubs' as const },
+            { rank: '2', suit: 'hearts' as const },
             { rank: '2', suit: 'spades' as const },
+            { rank: 'A', suit: 'spades' as const },
           ].map((card, i) => (
             <motion.div
               key={i}
