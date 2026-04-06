@@ -70,7 +70,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://le13-lac.vercel.app"
+              href="https://letreize.com"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 hover:shadow-[0_0_25px_rgba(212,160,52,0.4)] hover:scale-105"
@@ -115,7 +115,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://le13-lac.vercel.app"
+                href="https://letreize.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}

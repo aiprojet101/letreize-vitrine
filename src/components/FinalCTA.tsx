@@ -77,7 +77,7 @@ export default function FinalCTA() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://le13-lac.vercel.app"
+                href="https://letreize.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-12 py-5 rounded-xl text-lg font-bold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_rgba(212,160,52,0.5)] flex items-center gap-3"

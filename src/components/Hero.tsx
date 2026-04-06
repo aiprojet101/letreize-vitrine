@@ -129,7 +129,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://le13-lac.vercel.app"
+            href="https://letreize.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-10 py-4 rounded-xl text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(212,160,52,0.4)] flex items-center gap-3"

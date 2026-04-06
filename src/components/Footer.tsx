@@ -37,7 +37,7 @@ export default function Footer() {
         {/* Middle: All links in a single flat row */}
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 mb-14">
           <a
-            href="https://le13-lac.vercel.app"
+            href="https://letreize.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-[#b8a88a] hover:text-[#d4a034] transition-colors duration-300"
