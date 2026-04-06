@@ -14,17 +14,11 @@ export default function Footer() {
         {/* Top: Logo + tagline centered */}
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-3 mb-3">
-            <div
-              className="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold"
-              style={{
-                fontFamily: "'Cinzel', serif",
-                background: 'linear-gradient(135deg, #1a3a24, #0d2014)',
-                border: '1.5px solid rgba(212, 160, 52, 0.5)',
-                color: '#d4a034',
-              }}
-            >
-              13
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Le Treize"
+              className="w-9 h-9 rounded-full"
+            />
             <span
               className="text-xl font-bold"
               style={{

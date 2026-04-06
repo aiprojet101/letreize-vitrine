@@ -34,17 +34,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div
-              className="w-10 h-10 rounded-lg flex items-center justify-center text-lg font-bold transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(212,160,52,0.4)]"
-              style={{
-                fontFamily: "'Cinzel', serif",
-                background: 'linear-gradient(135deg, #1a3a24, #0d2014)',
-                border: '1.5px solid rgba(212, 160, 52, 0.5)',
-                color: '#d4a034',
-              }}
-            >
-              13
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Le Treize"
+              className="w-10 h-10 transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(212,160,52,0.4)] rounded-full"
+            />
             <div>
               <span
                 className="text-xl font-bold block leading-none"
