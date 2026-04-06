@@ -10,7 +10,7 @@ export default function Footer() {
         borderTop: '1px solid rgba(212, 160, 52, 0.08)',
       }}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 xl:px-16">
         {/* Top: Logo + tagline centered */}
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-3 mb-3">

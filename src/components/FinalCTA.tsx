@@ -4,7 +4,7 @@ import PlayingCard from './PlayingCard'
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-28 md:py-40 overflow-hidden">
+    <section className="relative py-20 md:py-28 overflow-hidden">
       {/* Background glow */}
       <div
         className="absolute inset-0"
@@ -13,7 +13,7 @@ export default function FinalCTA() {
         }}
       />
 
-      <div className="relative max-w-4xl mx-auto px-6">
+      <div className="relative max-w-5xl mx-auto px-6 lg:px-12 xl:px-16">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}

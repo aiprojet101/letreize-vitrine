@@ -34,8 +34,8 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="relative py-28 md:py-40 overflow-hidden">
-      <div className="relative max-w-7xl mx-auto px-6">
+    <section className="relative py-20 md:py-28 overflow-hidden">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 xl:px-16">
         {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

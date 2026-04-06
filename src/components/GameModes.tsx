@@ -46,7 +46,7 @@ const modes = [
 
 export default function GameModes() {
   return (
-    <section id="game-modes" className="relative py-24 md:py-40 overflow-hidden">
+    <section id="game-modes" className="relative py-20 md:py-28 overflow-hidden">
       {/* Background accent */}
       <div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full"
@@ -56,7 +56,7 @@ export default function GameModes() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 xl:px-16">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

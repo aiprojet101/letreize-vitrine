@@ -61,7 +61,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="relative py-24 md:py-40 overflow-hidden">
+    <section id="features" className="relative py-20 md:py-28 overflow-hidden">
       {/* Background */}
       <div
         className="absolute inset-0"
@@ -70,7 +70,7 @@ export default function Features() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 xl:px-16">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -38,7 +38,7 @@ const steps = [
 
 export default function HowToPlay() {
   return (
-    <section id="how-to-play" className="relative py-24 md:py-40 overflow-hidden">
+    <section id="how-to-play" className="relative py-20 md:py-28 overflow-hidden">
       {/* Subtle background */}
       <div
         className="absolute inset-0 opacity-[0.02]"
@@ -48,7 +48,7 @@ export default function HowToPlay() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 xl:px-16">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
