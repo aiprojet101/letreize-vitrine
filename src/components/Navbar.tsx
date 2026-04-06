@@ -37,7 +37,7 @@ export default function Navbar() {
             <img
               src="/logo-coin.png"
               alt="Le Treize"
-              className="w-11 h-11 transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(212,160,52,0.5)] object-contain"
+              className="w-14 h-14 transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(212,160,52,0.5)] object-contain"
             />
             <div>
               <span
