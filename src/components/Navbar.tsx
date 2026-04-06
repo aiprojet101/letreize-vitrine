@@ -31,13 +31,13 @@ export default function Navbar() {
             : 'bg-transparent'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <img
               src="/logo-coin.png"
               alt="Le Treize"
-              className="w-14 h-14 transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(212,160,52,0.5)] object-contain"
+              className="w-20 h-20 transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(212,160,52,0.5)] object-contain"
             />
             <div>
               <span
