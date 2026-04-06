@@ -15,9 +15,9 @@ export default function Footer() {
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-3 mb-3">
             <img
-              src="/favicon.svg"
+              src="/logo-coin.png"
               alt="Le Treize"
-              className="w-9 h-9 rounded-full"
+              className="w-10 h-10 object-contain"
             />
             <span
               className="text-xl font-bold"

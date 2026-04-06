@@ -35,9 +35,9 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <img
-              src="/favicon.svg"
+              src="/logo-coin.png"
               alt="Le Treize"
-              className="w-10 h-10 transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(212,160,52,0.4)] rounded-full"
+              className="w-11 h-11 transition-all duration-300 group-hover:drop-shadow-[0_0_12px_rgba(212,160,52,0.5)] object-contain"
             />
             <div>
               <span
